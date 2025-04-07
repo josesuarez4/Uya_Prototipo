@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Cursos</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Column -->
+    <div class="left">
+      <div class="course">
+        <span>C++</span>
+        <div class="progress"><div class="bar" style="width: 60%;"></div></div>
+        <button>Ir</button>
+      </div>
+      <div class="course">
+        <span>JavaScript</span>
+        <div class="progress"><div class="bar" style="width: 75%;"></div></div>
+        <button>Ir</button>
+      </div>
+      <div class="course">
+        <span>Ruby</span>
+        <div class="progress"><div class="bar" style="width: 30%;"></div></div>
+        <button>Ir</button>
+      </div>
+      <div class="course">
+        <span>Python</span>
+        <div class="progress"><div class="bar" style="width: 0%;"></div></div>
+        <button>Ir</button>
+      </div>
+      <button class="back-btn">Volver</button>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right">
+      <div class="card user-card">
+        <img src="./imagenes/user-icon.png" alt="Usuario">
+        <p>Usuario</p>
+        <button>Ver detalles</button>
+      </div>
+
+      <div class="card streak-card">
+        <img src="./imagenes/streak.png" alt="Racha">
+        <p>Llevas <strong>15 días</strong> de racha</p>
+      </div>
+
+      <div class="card podium-card">
+        <div class="user">
+          <p>User 2</p>
+          <div class="medal second">3 Cursos</div>
+        </div>
+        <div class="user">
+          <p>User 1</p>
+          <div class="medal first">4 Cursos</div>
+        </div>
+        <div class="user">
+          <p>User 3</p>
+          <div class="medal third">2 Cursos</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
