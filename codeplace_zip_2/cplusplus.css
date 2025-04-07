@@ -1,0 +1,236 @@
+/* Header */
+
+.header {
+  background-color: #0061FF;
+}
+
+.header .container.text-center {
+  margin: 0;
+  margin-left: 5%
+}
+
+.col.texto {
+  width: 70%;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.col.texto p {
+  margin-left: 3%;
+}
+
+.col.texto.titulo {
+  text-align: left;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.col.texto.titulo h1 {
+  font-size: 30px;
+}
+
+.col.texto.informacion {
+  text-align: left;
+  width: 90%;
+}
+.col.imagen {
+  padding: 20px 20px;
+  width: 30%;
+  img {
+    background-color: #fff;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+  }
+}
+
+/* Ventajas */
+
+.ventajas.titulo {
+  margin: 40px 5% 40px 5%;
+  max-width: 1320px;
+}
+
+.ventajas.titulo h1 {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.ventajas .container.text-center .col {
+  flex: 1;
+  min-width: 0;
+  flex-basis: 0;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  /* Para que tengan la misma altura */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.ventajas .col {
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.ventajas .container.text-center .row {
+  gap: 50px;
+  justify-content: center;
+}
+
+.ventajas .container.text-center .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ventajas .col.rendimiento.titulo,
+.ventajas .col.multiparadigma.titulo,
+.ventajas .col.ampliamente-utilizado.titulo,
+.ventajas .col.demanda-laboral.titulo {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.ventajas .col.rendimiento.titulo p,
+.ventajas .col.multiparadigma.titulo p,
+.ventajas .col.ampliamente-utilizado.titulo p,
+.ventajas .col.demanda-laboral.titulo p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ventajas .col.rendimiento.texto,
+.ventajas .col.multiparadigma.texto,
+.ventajas .col.ampliamente-utilizado.texto,
+.ventajas .col.demanda-laboral.texto {
+  border: none;
+}
+
+.ventajas .col.rendimiento.texto p,
+.ventajas .col.multiparadigma.texto p,
+.ventajas .col.ampliamente-utilizado.texto p,
+.ventajas .col.demanda-laboral.texto p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+}
+
+/* Contenidos */
+
+.contenidos {
+  margin: 40px 5% 40px 5%;
+}
+
+.contenidos .titulo h1 {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.contenidos .col.izq {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contenidos .col.izq ul {
+  text-align: left;
+  list-style-type: square;
+}
+
+.contenidos .col.izq li {
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenidos .col.der .bloque {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contenidos .col.der .bloque img {
+  padding: 10px;
+  width: 40%;
+}
+
+.contenidos .col.der .bloque h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contenidos .col.der .bloque .btn {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/*  Historia */
+
+.historia {
+  margin: 40px 5% 40px 5%;
+}
+
+.historia .titulo h1 {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.historia .col.izq {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.historia .col.izq p {
+  text-align: left;
+  list-style-type: square;
+}
+
+.historia .col.izq ul {
+  text-align: left;
+  list-style-type: square;
+}
+
+.historia .col.der img {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 50%;
+}
+
+/* Footer */
+
+.footer {
+  margin: 40px 5% 40px 5%;
+}
+
+.footer .btn.btn-primary.volver {
+  border: 1px solid black;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  padding: 15px 30px;
+}
+
+.footer .btn.btn-primary.cuestionario {
+  border: 1px solid black;
+  text-align: right;
+  display: block;
+  margin: 0 20% 0 auto;
+  font-size: 20px;
+  padding: 15px 30px;
+}
